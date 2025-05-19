@@ -2,53 +2,51 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meu primeiro projeto</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
     <header>
         <div class="apresentacao">
-            <h1>Foz do Iguaçu</h1>
-            <h4>Venha conhecer o paraíso no Paraná</h4>
+            <h1>Desenvolvedor Front-end</h1>
+            <h4>Formulário para vaga de desenvolvedor front-end</h4>
         </div>
     </header>
 
     <main id="principal">
 
-        <section class="curiosidades">
+        <section class="vaga">
 
-            <img class="imagem"
-                src="https://s2-g1.glbimg.com/m43ISxv6FX5FvHI311Pa9FQ_Bw4=/0x0:1400x788/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/y/U/Bg2tbNTXKMAeRfG0zgIg/capa-quizz-1400x788.png">
-
-            <h2>Curiosidades sobre Foz do Iguaçu</h2>
-
-            <div class="curiosidade">
-                <h3>Cataratas do Iguaçu</h3>
-                <p>Uma das sete maravilhas naturais do mundo, com mais de 270 quedas d'água!</p>
-                <a href="https://www.instagram.com/" target="_blank">Ver mais</a>
+            <div class="descricao">
+                <img class="imagem" src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png"
+                    alt="Ícone front-end" />
+                <h2>Sobre a Vaga</h2>
+                <p>Estamos em busca de um(a) desenvolvedor(a) front-end apaixonado(a) por criar experiências incríveis
+                    com HTML e CSS!</p>
             </div>
 
-            <div class="curiosidade">
-                <h3>Marco das Três Fronteiras</h3>
-                <p>Um ponto turístico onde Brasil, Argentina e Paraguai se encontram.</p>
-                <a href="https://www.instagram.com/" target="_blank">Ver mais</a>
-            </div>
+            <form class="formulario">
+                <h2>Candidate-se</h2>
 
-            <div class="curiosidade">
-                <h3>Parque das Aves</h3>
-                <p>Um santuário que abriga mais de 1300 aves de 130 espécies, em contato direto com a natureza.</p>
-                <a href="https://www.instagram.com/" target="_blank">Ver mais</a>
-            </div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Digite seu nome" />
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" placeholder="Digite seu e-mail" />
+
+                <button type="submit">Enviar</button>
+            </form>
 
         </section>
+
     </main>
 
     <footer>
-        <p>2025 - Todos os direitos reservados</p>
+        <p>2025 - Todos os direitos reservados | Oficina Front-End</p>
     </footer>
 
 </body>

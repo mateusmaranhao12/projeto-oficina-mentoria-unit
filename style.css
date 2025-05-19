@@ -1,24 +1,28 @@
-/*Meu projeto CSS*/
+/* Reset básico */
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(223, 255, 244);
-    color: #333;
+    background-color: rgb(231, 231, 231);
+    color: #0f0f0f;
+    padding: 20px;
 }
 
+/* Header */
 .apresentacao {
-    background-color: aquamarine;
-    border: 1px solid #333;
+    background-color: #ffffff;
+    border: 1px solid #000000;
     border-radius: 12px;
     padding: 20px;
     margin: 25px;
     text-align: center;
 }
 
+/* Main */
 main {
     padding: 20px;
 }
@@ -27,53 +31,62 @@ main {
     margin: 20px;
 }
 
-.curiosidades {
+.vaga {
     background-color: #ffffff;
-    padding: 25px;
+    padding: 20px;
     border-radius: 12px;
 }
 
+.descricao {
+    text-align: center;
+    margin: 20px;
+}
+
 .imagem {
-    width: 300px;
+    width: 100px;
     height: auto;
-    margin: 40px;
-    border-radius: 20px;
+    margin-bottom: 15px;
 }
 
-h2 {
+.formulario {
+    margin: 0 auto;
+    width: 400px;
+}
+
+label {
+    margin: 5px;
+}
+
+input {
+    width: 100%;
     padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
 
-.curiosidade {
+button {
+    background-color: #005c99;
+    color: white;
+    border: none;
     padding: 10px;
-}
-
-h3 {
-    padding: 5px;
-    color: #000;
-}
-
-p {
-    padding: 5px;
-}
-
-a {
-    color: #00857a;
-    text-decoration: none;
-    padding: 5px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
     font-weight: bold;
 }
 
-a:hover {
-    background: #00857a;
-    color: white;
-    text-decoration: none;
-    padding: 5px;
+button:hover {
+    background-color: #003f66;
 }
 
+/* Footer */
 footer {
-    background-color: #02005c;
+    background-color: #0d0d0d;
     color: white;
-    padding: 35px;
+    padding: 20px;
     text-align: center;
+    border-radius: 10px;
+    margin-top: 40px;
 }
