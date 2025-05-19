@@ -1,0 +1,77 @@
+/*Meu projeto CSS*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(223, 255, 244);
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.apresentacao {
+    background-color: aquamarine;
+    padding: 15px;
+    margin: 25px;
+    text-align: center;
+    border-radius: 12px;
+    border: 1px solid #333;
+}
+
+main {
+    padding: 20px;
+}
+
+#principal {
+    margin: 20px;
+}
+
+.imagem {
+    width: 300px;
+    height: auto;
+    margin: 40px;
+    border-radius: 20px;
+}
+
+.curiosidades {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+h2 {
+    padding: 10px;
+}
+
+.curiosidade {
+    padding: 10px;
+}
+
+h3 {
+    padding: 5px;
+}
+
+p {
+    padding: 5px;
+}
+
+a {
+    color: #00857a;
+    text-decoration: none;
+    padding: 5px;
+}
+
+a:hover {
+    background: #00857a;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+footer {
+    background-color: #02005c;
+    color: white;
+    padding: 35px;
+    text-align: center;
+}
