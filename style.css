@@ -5,18 +5,18 @@
 }
 
 body {
-    background-color: rgb(223, 255, 244);
     font-family: Arial, sans-serif;
+    background-color: rgb(223, 255, 244);
     color: #333;
 }
 
 .apresentacao {
     background-color: aquamarine;
+    border: 1px solid #333;
+    border-radius: 12px;
     padding: 15px;
     margin: 25px;
     text-align: center;
-    border-radius: 12px;
-    border: 1px solid #333;
 }
 
 main {
@@ -27,17 +27,17 @@ main {
     margin: 20px;
 }
 
+.curiosidades {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+}
+
 .imagem {
     width: 300px;
     height: auto;
     margin: 40px;
     border-radius: 20px;
-}
-
-.curiosidades {
-    background-color: #ffffff;
-    padding: 25px;
-    border-radius: 12px;
 }
 
 h2 {
@@ -50,6 +50,7 @@ h2 {
 
 h3 {
     padding: 5px;
+    color: #000;
 }
 
 p {
@@ -60,6 +61,7 @@ a {
     color: #00857a;
     text-decoration: none;
     padding: 5px;
+    font-weight: bold;
 }
 
 a:hover {
