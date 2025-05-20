@@ -7,15 +7,14 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(231, 231, 231);
     color: #0f0f0f;
 }
 
 /* Header */
 .apresentacao {
     background-color: #ffffff;
-    border: 1px solid #000000;
     text-align: center;
+    box-shadow: 12px 1px 15px black;
 }
 
 h1 {
@@ -27,15 +26,11 @@ h4 {
     color: #646464;
 }
 
-/* Main */
-#principal {
-    margin: 20px;
-}
-
 .vaga {
     background-color: #ffffff;
     padding: 20px;
     border-radius: 12px;
+    margin: 20px;
 }
 
 .descricao {
