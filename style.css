@@ -26,6 +26,11 @@ h4 {
     color: #646464;
 }
 
+/*Main*/
+#principal {
+    padding: 20px;
+}
+
 .vaga {
     background-color: #ffffff;
     padding: 20px;
